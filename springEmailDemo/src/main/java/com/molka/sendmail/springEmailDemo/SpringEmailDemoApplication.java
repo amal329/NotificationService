@@ -15,8 +15,8 @@ public class SpringEmailDemoApplication {
 		SpringApplication.run(SpringEmailDemoApplication.class, args);
 	}
 	@EventListener(ApplicationReadyEvent.class)
-	public void sendEmail(){
-		senderService.sendEmail("kmoleyar@rediffmail.com","This is test", "TEST BODY");
+	public void sendEmailOTP(){
+		senderService.sendEmailOTP("kmoleyar@rediffmail.com","OTP for Registration");
 	}
 
 }
