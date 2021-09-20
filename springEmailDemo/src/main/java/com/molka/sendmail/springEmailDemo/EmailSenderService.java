@@ -15,7 +15,7 @@ public class EmailSenderService {
     {
 
         SimpleMailMessage message = new SimpleMailMessage();
-        message.setFrom("moleyarcentral@gmail.com");
+        message.setFrom("apllicationecommerce982021@gmail.com");
         message.setTo(toEmail);
         message.setText((int)(Math.random()*(10000-1000)+1000)+" is your OTP");
         message.setSubject(subject);
